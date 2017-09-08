@@ -1,0 +1,163 @@
+html{
+	background: url(pablo1.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+}
+
+body{
+	background: url('pablo.png');
+	background-size: 100%;
+	background-image: ('pablo.png');
+	/*opacity: 0.5;*/
+}
+
+.image{
+
+}
+
+.clearfix: after {
+	display: block;
+	clear: both;
+}
+
+.menu-wrap{
+	width: 100%;
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.2)
+	background:#aa7580;
+	position: relative;
+	margin-top: 5%;
+	margin-left: 10%;
+
+}
+
+.menu{
+	width: 1000px;
+	margin: 0px auto;
+
+
+.menu li{
+	margin:0px;
+	list-style: none;
+}
+
+.menu a{
+	transition: all linear 0.15s;
+	color: #919191;
+}
+
+.menu li:hover > a, .menu .current-item > a{
+	text-decoration: none;
+	color: #be5b70;
+}
+
+.menu {
+	font-size: 11px;
+	line-height: 0%
+}
+
+/*-----Top Level ----*/
+.menu > ul > li {
+	float: left;
+	display: inline-block;
+	position: relative;
+	font-size: 19px;
+}
+
+.menu > ul > li > a{
+	padding: 10px 40px;
+	display: inline-block;
+	text-shadow: 0px 1px 0px rgba(0,0,0,0.4);
+}
+
+.menu > ul > li:hover > a, .menu > ul > .current - item > a{
+	background: #2e2728
+}
+
+/*----Bottom Lebel -----*/
+.sub-menu{
+	width: 160%;
+	padding: 5px 0px;
+	position: absolute;
+	top: 100%
+	left:0px;
+	z-index: -1;
+	opacity: 0;
+	transition: opacity linear 0.15s;
+	box-shadow: 0px 2px 3px rgba(0,0,0,0.2);
+	background: #2e2728;
+}
+
+.menu li:hover .sub-menu{
+	z-index:1;
+	opacity: 1;
+}
+
+.sub-menu li{
+	display: block;
+	font-size: 16px;
+}
+
+.sub-menu li a{
+	padding:10px 30px;
+	display: block;
+}
+
+.sub-menu li a:hover, .sub-menu a{
+	background: #3e3436
+}
+
+
+
+.body-text{
+	text-align: center;
+	/*padding: 200px 100px 100px 200px;*/
+	width: :700px;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 25px;
+	margin-top: 300px;
+ 	color: #be5b70;
+}
+
+.experience-text{
+	/*text-align: center;*/
+	/*padding: 200px 100px 100px 200px;*/
+	/*width: :700px;*/
+	/*margin-left: 10%;*/
+	/*margin-right: 100px;*/
+	font-size: 20px;
+	/*margin-top: 5%;*/
+ 	color: #00ffff;
+ 	width: 100%;
+ 	height: 90px;
+}
+
+.large{
+	width: 100%;
+	display: block;
+
+}
+
+.smaller{
+	display: inline-block;
+	/*border: 20px;*/
+	width: 40%;
+	margin:0 auto;
+	margin-top: 5%;
+	margin-left: 7%;
+}
+
+.interest-smaller{
+	display: inline-block;
+	color: #00ffff;
+	font-size: 20px;
+	margin:0 auto;
+	width: 40%;
+	margin-top: 5%;
+	margin-left: 7%;
+}
+.interest-text{
+	color: #00ffff
+}
