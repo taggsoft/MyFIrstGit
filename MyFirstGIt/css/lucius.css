@@ -1,5 +1,5 @@
 html{
-	background: url('images/pablo1.png') no-repeat center center fixed;
+	background: url(pablo1.png) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -7,9 +7,9 @@ html{
 }
 
 body{
-	background: url('images/pablo.png');
+	background: url('pablo.png');
 	background-size: 100%;
-	/*background-image: ('pablo.png');*/
+	background-image: ('pablo.png');
 	/*opacity: 0.5;*/
 }
 
